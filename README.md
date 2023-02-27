@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Hi, I'm Law Kumar! 👋
+# Project Title
+Snap-Shot Project is about the Photo Gallery having few Photos related to the Search Name.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+Snap Shot is a gallery created using React,React Hooks, React Router and Context API. The Routes were setup for four default pages and a search page. Also the images were displayed using the Flickr API and axios to fetch data.
 
-In the project directory, you can run:
 
-### `npm start`
+## Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The purpose of this project was to get familiar with React Hooks and Context API as well as React Router Dom and Navigation.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Click the demo link or clone/download the repository on your local machine. Create a config.js file in api folder inside src folders. In config.js file write export const apiKey = "YOUR_FLIKR_API_KEY";
 
-### `npm test`
+#### Install dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+#### Run Snap Shot from the root directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
+## Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React js 
+- React Router
+- React Hooks
+- Context API
+- Flickr API
+## API Reference
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Get all items
 
-### `npm run eject`
+- apiKey = "636e1481b4f3c446d26b8eb6ebfe7127";
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- url : https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [@LawKumar](https://github.com/Luvkumar03/SnapShot_Project_4)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+- Responsive Design
+- Search functionality added to search photos from api.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Demo Of the Project
+- [@Demo of the project](https://snap-shot-project-4.vercel.app/)
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Insert gif or link to demo
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment
 
-### Deployment
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  npm run deploy
+```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Feedback
+
+If you have any feedback, please reach out to us at
+- [@LawBhardwaj](https://twitter.com/BhardwazLuv)
+
+
+## 🔗 Links
+You can clone it to your local by following this link.
+- [Github ](https://github.com/Luvkumar03/SnapShot_Project_4)
+
+## Languages
+
+- Html
+- Css
+- JavaScript
+- React
+
